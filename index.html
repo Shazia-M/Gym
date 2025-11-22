@@ -1,0 +1,134 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Iron-Fitness</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav" role="banner">
+      <div class="brand">
+        <div class="logo">
+    <img src="Logo-removebg-preview.png" alt="logo" style="width:100%; height:100%; object-fit:cover; border-radius:0.5rem;">
+    </div>
+
+        <div>
+          <div class="brand-main">Iron-Fitness</div>
+          <!-- <div class="brand-sub">Gym UI • Static</div> -->
+        </div>
+      </div>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div>
+        <a class="cta" href="#contact">Get Started</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-left">
+          <h1 id="hero-heading">Build strength. Move better. Train smarter.</h1>
+          <p>Quality gear, proven programs, happy customers — built with love. Explore our collection or try a plan tailored for you.</p>
+
+          <div class="hero-actions">
+            <button class="btn primary" onclick="scrollToSection('products')">Join us</button>
+            <button class="btn" onclick="scrollToSection('features')">Discover</button>
+          </div>
+
+          <div class="stats-grid">
+            <!-- <div class="stat"><div class="number">1,250+</div><div class="label">Products Sold</div></div> -->
+            <div class="stat"><div class="number">2K+</div><div class="label">Happy Customers</div></div>
+            <div class="stat"><div class="number">4.9 ★</div><div class="label">Avg. Rating</div></div>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="hero-card">
+            <div class="hero-img" style="background-image: url('Hero.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hero-product-info">
+              <div class="prod-title">Plan for entire year</div>
+              <div class="prod-price">₹7,999</div>
+            </div>
+            <!-- <div class="hero-product-sub">Limited stock • Fast shipping</div> -->
+          </div>
+
+          <div class="hero-card hero-plan">
+            <div class="plan-left">
+              <div class="plan-title">Monthly Plan</div>
+              <div class="plan-sub">Personalized workouts + tracking</div>
+            </div>
+            <div class="plan-right">
+              <div class="plan-price">₹749</div>
+              <div class="plan-per">per month</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="products" class="spacer">
+  <h2 class="section-title">Top products</h2>
+
+  <div class="cards" role="list">
+    
+    <article class="card">
+      <img src="1.jpg" alt="Adjustable Dumbbell" class="card-img" />
+      <h3>Adjustable Dumbbell</h3>
+    </article>
+
+    <article class="card">
+      <img src="2.jpg" alt="Resistance Bands" class="card-img" />
+      <h3>Resistance Bands Set</h3>
+    </article>
+
+    <article class="card">
+      <img src="3.jpg" alt="Barbell Kit" class="card-img" />
+      <h3>Barbell Kit</h3>
+    </article>
+
+    <article class="card">
+      <img src="4.jpg" alt="Training Mat" class="card-img" />
+      <h3>Training Mat</h3>
+    </article>
+
+  </div>
+</section>
+
+
+      <section id="features" class="spacer">
+        <h2 class="section-title">Why people choose us</h2>
+        <div class="features">
+          <div class="feature"><h4>Designed for Real Results</h4><p>Our equipment is crafted to improve form, boost performance, and help you train smarter—not just harder.</p></div>
+          <div class="feature"><h4>Built for Everyday Athletes</h4><p>Whether you’re a beginner or a pro, our gear adapts to your strength, pace, and progress.</p></div>
+          <div class="feature"><h4>Expert Support</h4><p>Ask our trainers for product recommendations and workout tips.</p></div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div>
+          <h3>Ready to start?</h3>
+          <div class="small">Join 2000+ customers who improved their fitness with our gear.</div>
+        </div>
+        <a class="cta" href="#contact">Contact Us</a>
+      </section>
+
+      <footer id="contact">
+        <div class="footer-grid">
+          <div><div class="footer-title">Gym Store</div><div class="small">Let's live a healthy and happy life together</div></div>
+          <div class="small">Email: Iron-Fitness@gmail.com</div>
+        </div>
+        <div class="small copyright">© <span id="year"></span> Iron-Fitness. All rights reserved.</div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
